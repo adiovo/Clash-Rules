@@ -1,0 +1,17 @@
+# NAME: private-proxy
+# AUTHOR: dosicker
+# REPO: https://raw.githubusercontent.com/dosicker/Clash-Rules/main/private-proxy.yaml
+# UPDATED: 2023-12-17
+# DOMAIN: 0
+# DOMAIN-KEYWORD: 0
+# DOMAIN-SUFFIX: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# PROCESS-NAME: 0
+# TOTAL: 0
+payload:
+  # New Bing 开始
+  - DOMAIN-SUFFIX,msecnd.net,🚀 节点选择
+  - DOMAIN-SUFFIX,bing.com,🚀 节点选择
+  - DOMAIN-SUFFIX,cn.bing.com,🚀 节点选择
+  # New Bing 结束
