@@ -13,9 +13,9 @@ payload:
   # 开发相关 开始
   - DOMAIN-SUFFIX,*.lingyue-digital.com,🎯 全球直连
   - PROCESS-NAME,Citrix Viewer,🎯 全球直连
-  # 开发相关结束
+  # 开发相关 结束
 
-  # 域名匹配代理
+  # 域名匹配代理 开始
   - DOMAIN-SUFFIX,gitee.com,🎯 全球直连
   - DOMAIN-SUFFIX,jiatuiyun.net,🎯 全球直连
   - DOMAIN-SUFFIX,bmw-brilliance.cn,🎯 全球直连
@@ -25,6 +25,7 @@ payload:
   # 此条针对teams.microsoft.com流量走DIRECT
   # - IP-CIDR,52.0.0.0/8,🎯 全球直连
   - DOMAIN-SUFFIX,ifanr.com,🎯 全球直连
+  # 域名匹配代理 结束
 
   # 图床相关 开始
   - DOMAIN-SUFFIX,imgtu.com,🎯 全球直连
