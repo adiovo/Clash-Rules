@@ -1,7 +1,7 @@
 # NAME: private-direct
 # AUTHOR: dosicker
 # REPO: https://raw.githubusercontent.com/dosicker/Clash-Rules/main/private-direct.yaml
-# UPDATED: 2023-12-17
+# UPDATED: 2023-12-19
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 0
 # DOMAIN-SUFFIX: 0
@@ -16,6 +16,7 @@ payload:
   # 开发相关 结束
 
   # 域名匹配代理 开始
+  - DOMAIN-SUFFIX,v2ex.com,🎯 全球直连
   - DOMAIN-SUFFIX,gitee.com,🎯 全球直连
   - DOMAIN-SUFFIX,jiatuiyun.net,🎯 全球直连
   - DOMAIN-SUFFIX,bmw-brilliance.cn,🎯 全球直连
