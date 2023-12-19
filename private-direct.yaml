@@ -16,7 +16,6 @@ payload:
   # 开发相关 结束
 
   # 域名匹配代理 开始
-  - DOMAIN-SUFFIX,v2ex.com,🎯 全球直连
   - DOMAIN-SUFFIX,gitee.com,🎯 全球直连
   - DOMAIN-SUFFIX,jiatuiyun.net,🎯 全球直连
   - DOMAIN-SUFFIX,bmw-brilliance.cn,🎯 全球直连
