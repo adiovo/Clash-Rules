@@ -22,6 +22,7 @@ payload:
   - DOMAIN-SUFFIX,360.cn,🎯 全球直连
   - DOMAIN-SUFFIX,360safe.com,🎯 全球直连
   - DOMAIN-SUFFIX,microsoft.com,🎯 全球直连,no-resolve
+  - DOMAIN-SUFFIX,ifconfig.me,🎯 全球直连
   # 此条针对teams.microsoft.com流量走DIRECT
   # - IP-CIDR,52.0.0.0/8,🎯 全球直连
   - DOMAIN-SUFFIX,ifanr.com,🎯 全球直连
