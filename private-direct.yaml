@@ -40,4 +40,8 @@ payload:
   - DOMAIN-SUFFIX,meituan.com,🎯 全球直连
   # 美团、饿了么 H5端相关 结束
 
+  # Epic Game Start
+  - DOMAIN-SUFFIX,akamaized.net,🎯 全球直连
+  # Epic Game End
+
   - DOMAIN-SUFFIX,qianqian.club,🎯 全球直连
