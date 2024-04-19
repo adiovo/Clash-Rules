@@ -39,3 +39,5 @@ payload:
   - DOMAIN-SUFFIX,dianping.com,🎯 全球直连
   - DOMAIN-SUFFIX,meituan.com,🎯 全球直连
   # 美团、饿了么 H5端相关 结束
+
+  - DOMAIN-SUFFIX,qianqian.club,🎯 全球直连
