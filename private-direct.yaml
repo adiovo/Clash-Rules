@@ -26,6 +26,7 @@ payload:
   # 此条针对teams.microsoft.com流量走DIRECT
   # - IP-CIDR,52.0.0.0/8,🎯 全球直连
   - DOMAIN-SUFFIX,ifanr.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hostbuf.com,🎯 全球直连
   # 域名匹配代理 结束
 
   # 图床相关 开始
