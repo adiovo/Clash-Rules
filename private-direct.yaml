@@ -1,14 +1,14 @@
 # NAME: private-direct
 # AUTHOR: dosicker
 # REPO: https://raw.githubusercontent.com/dosicker/Clash-Rules/main/private-direct.yaml
-# UPDATED: 2023-12-19
+# UPDATED: 2024-07-14
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 0
-# DOMAIN-SUFFIX: 0
+# DOMAIN-SUFFIX: 18
 # IP-CIDR: 0
 # IP-CIDR6: 0
-# PROCESS-NAME: 0
-# TOTAL: 0
+# PROCESS-NAME: 1
+# TOTAL: 19
 payload:
   # 开发相关 开始
   - DOMAIN-SUFFIX,*.lingyue-digital.com,🎯 全球直连
