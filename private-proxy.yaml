@@ -1,10 +1,10 @@
 # NAME: private-proxy
 # AUTHOR: dosicker
 # REPO: https://raw.githubusercontent.com/dosicker/Clash-Rules/main/private-proxy.yaml
-# UPDATED: 2023-12-17
+# UPDATED: 2024-08-13
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 0
-# DOMAIN-SUFFIX: 0
+# DOMAIN-SUFFIX: 6
 # IP-CIDR: 0
 # IP-CIDR6: 0
 # PROCESS-NAME: 0
@@ -19,3 +19,8 @@ payload:
   # 第三方资源站 开始
   - DOMAIN-SUFFIX,uptodown.com,🚀 节点选择
   # 第三方资源站 结束
+
+  # openai and chatgpt start
+  - DOMAIN-SUFFIX,openai.com,🚀 节点选择
+  - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
+  # openai and chatgpt end
