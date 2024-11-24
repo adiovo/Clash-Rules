@@ -13,7 +13,7 @@ payload:
   # New Bing 开始
   - DOMAIN-SUFFIX,msecnd.net,🚀 节点选择
   - DOMAIN-SUFFIX,bing.com,🚀 节点选择
-  - DOMAIN-SUFFIX,cn.bing.com,🚀 节点选择
+  - DOMAIN-SUFFIX,copilot.microsoft.com,🚀 节点选择
   # New Bing 结束
   
   # 第三方资源站 开始
