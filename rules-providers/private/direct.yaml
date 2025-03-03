@@ -16,7 +16,7 @@ payload:
 
   # 域名匹配代理 开始
   - DOMAIN-SUFFIX,gitee.com,🎯 全球直连
-  - DOMAIN-SUFFIX,*.gitee.io,🎯 全球直连
+  - DOMAIN-SUFFIX,gitee.io,🎯 全球直连
   - DOMAIN-SUFFIX,jiatuiyun.net,🎯 全球直连
   - DOMAIN-SUFFIX,360.cn,🎯 全球直连
   - DOMAIN-SUFFIX,360safe.com,🎯 全球直连
@@ -34,7 +34,7 @@ payload:
   # 图床相关 开始
   - DOMAIN-SUFFIX,imgtu.com,🎯 全球直连
   - DOMAIN-SUFFIX,imgse.com,🎯 全球直连
-  - DOMAIN-SUFFIX,*.ax1x.com,🎯 全球直连,no-resolve
+  - DOMAIN-SUFFIX,ax1x.com,🎯 全球直连,no-resolve
   # 图床相关 结束
   
   # 美团、饿了么 H5端相关 开始
