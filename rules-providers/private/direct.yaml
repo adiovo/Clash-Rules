@@ -1,14 +1,14 @@
 # NAME: private-rule
 # AUTHOR: dosicker
 # REPO: https://raw.githubusercontent.com/dosicker/Clash-Rules/main/rules-providers/private/direct.yaml
-# UPDATED: 2025-02-21
+# UPDATED: 2025-03-04
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 0
-# DOMAIN-SUFFIX: 17
+# DOMAIN-SUFFIX: 18
 # IP-CIDR: 0
 # IP-CIDR6: 0
 # PROCESS-NAME: 1
-# TOTAL: 18
+# TOTAL: 19
 payload:
   # 开发相关 开始
   - PROCESS-NAME,Citrix Viewer,🎯 全球直连
@@ -48,3 +48,4 @@ payload:
   # Epic Game End
 
   - DOMAIN-SUFFIX,qianqian.club,🎯 全球直连
+  - DOMAIN-SUFFIX,imgki.com,🎯 全球直连
