@@ -7,9 +7,13 @@
 # DOMAIN-SUFFIX: 18
 # IP-CIDR: 0
 # IP-CIDR6: 0
-# PROCESS-NAME: 1
-# TOTAL: 19
+# PROCESS-NAME: 2
+# TOTAL: 20
 payload:
+  # 进程匹配 开始
+  - PROCESS-NAME,ToDesk.exe,🎯 全球直连
+  # 进程匹配 结束
+  
   # 开发相关 开始
   - PROCESS-NAME,Citrix Viewer,🎯 全球直连
   # 开发相关 结束
@@ -29,6 +33,11 @@ payload:
   - DOMAIN-SUFFIX,ifanr.com,🎯 全球直连
   - DOMAIN-SUFFIX,hostbuf.com,🎯 全球直连
   - DOMAIN-SUFFIX,tailwindcss.com,🎯 全球直连
+  # Epic Game Start
+  - DOMAIN-SUFFIX,akamaized.net,🎯 全球直连
+  
+  - DOMAIN-SUFFIX,qianqian.club,🎯 全球直连
+  - DOMAIN-SUFFIX,imgki.com,🎯 全球直连
   # 域名匹配代理 结束
 
   # 图床相关 开始
@@ -42,10 +51,3 @@ payload:
   - DOMAIN-SUFFIX,dianping.com,🎯 全球直连
   - DOMAIN-SUFFIX,meituan.com,🎯 全球直连
   # 美团、饿了么 H5端相关 结束
-
-  # Epic Game Start
-  - DOMAIN-SUFFIX,akamaized.net,🎯 全球直连
-  # Epic Game End
-
-  - DOMAIN-SUFFIX,qianqian.club,🎯 全球直连
-  - DOMAIN-SUFFIX,imgki.com,🎯 全球直连
