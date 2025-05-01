@@ -1,10 +1,10 @@
 # NAME: private-rule
 # AUTHOR: dosicker
 # REPO: https://raw.githubusercontent.com/dosicker/Clash-Rules/main/rules-providers/private/direct.yaml
-# UPDATED: 2025-04-16
+# UPDATED: 2025-05-01
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 0
-# DOMAIN-SUFFIX: 18
+# DOMAIN-SUFFIX: 17
 # IP-CIDR: 0
 # IP-CIDR6: 0
 # PROCESS-NAME: 2
@@ -37,7 +37,7 @@ payload:
   - DOMAIN-SUFFIX,akamaized.net,🎯 全球直连
   
   - DOMAIN-SUFFIX,qianqian.club,🎯 全球直连
-  - DOMAIN-SUFFIX,imgki.com,🎯 全球直连
+  # - DOMAIN-SUFFIX,imgki.com,🎯 全球直连
   # 域名匹配代理 结束
 
   # 图床相关 开始
