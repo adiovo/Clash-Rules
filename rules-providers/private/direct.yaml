@@ -8,7 +8,7 @@
 # IP-CIDR: 0
 # IP-CIDR6: 0
 # PROCESS-NAME: 2
-# TOTAL: 20
+# TOTAL: 0
 payload:
   # 进程匹配 开始
   - PROCESS-NAME,ToDesk.exe,🎯 全球直连
