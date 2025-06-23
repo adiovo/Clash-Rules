@@ -1,10 +1,10 @@
 # NAME: private-proxy
-# AUTHOR: dosicker
-# REPO: https://raw.githubusercontent.com/dosicker/Clash-Rules/main/rules-providers/private/proxy.yaml
-# UPDATED: 2025-02-21
+# AUTHOR: doydi
+# REPO: https://raw.githubusercontent.com/doydi/Clash-Rules/main/rules-providers/private/proxy.yaml
+# UPDATED: 2025-06-23
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 0
-# DOMAIN-SUFFIX: 6
+# DOMAIN-SUFFIX: 7
 # IP-CIDR: 0
 # IP-CIDR6: 0
 # PROCESS-NAME: 0
@@ -24,3 +24,6 @@ payload:
   - DOMAIN-SUFFIX,openai.com,🚀 节点选择
   - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
   # openai and chatgpt end
+
+  # Spotify
+  - DOMAIN-SUFFIX,spotify.com,🇸🇬 Pro-新加坡02-1x-VMESS
