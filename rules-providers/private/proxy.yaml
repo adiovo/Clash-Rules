@@ -26,4 +26,10 @@ payload:
   # openai and chatgpt end
 
   # Spotify
-  - DOMAIN-SUFFIX,spotify.com,🇸🇬 Pro-新加坡02-1x-VMESS
+  - DOMAIN-SUFFIX,spotify.com,🚀 节点选择,no-resolve
+  - DOMAIN-SUFFIX,pscdn.co,🚀 节点选择,no-resolve
+  - DOMAIN-SUFFIX,scdn.co,🚀 节点选择,no-resolve
+  - DOMAIN-SUFFIX,spoti.fi,🚀 节点选择,no-resolve
+  - DOMAIN-SUFFIX,spotifycdn.com,🚀 节点选择,no-resolve
+  - DOMAIN-SUFFIX,spotifycdn.net,🚀 节点选择,no-resolve
+  - DOMAIN-KEYWORD,spotify,🚀 节点选择,no-resolve
