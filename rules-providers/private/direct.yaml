@@ -1,31 +1,33 @@
 # NAME: private-rule
-# AUTHOR: dosicker
-# REPO: https://raw.githubusercontent.com/dosicker/Clash-Rules/main/rules-providers/private/direct.yaml
+# AUTHOR: adiovo
+# REPO: https://raw.githubusercontent.com/adiovo/Clash-Rules/main/rules-providers/private/direct.yaml
 # UPDATED: 2025-05-01
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 0
-# DOMAIN-SUFFIX: 17
+# DOMAIN-SUFFIX: 18
 # IP-CIDR: 0
 # IP-CIDR6: 0
 # PROCESS-NAME: 2
-# TOTAL: 0
+# TOTAL: 20
 payload:
-  # 进程匹配 开始
+  # 进程匹配 开始 #
   - PROCESS-NAME,ToDesk.exe,🎯 全球直连
-  # 进程匹配 结束
+  # 进程匹配 结束 #
   
-  # 开发相关 开始
+  # 开发相关 开始 #
   - PROCESS-NAME,Citrix Viewer,🎯 全球直连
-  # 开发相关 结束
+  # 开发相关 结束 #
 
-  # 域名匹配代理 开始
-  - DOMAIN-SUFFIX,agxm.fun,🎯 全球直连
+  # 域名匹配代理 开始 #
+  - DOMAIN-SUFFIX,adiovo.cc,🎯 全球直连
+  
   - DOMAIN-SUFFIX,gitee.io,🎯 全球直连
   - DOMAIN-SUFFIX,jiatuiyun.net,🎯 全球直连
   - DOMAIN-SUFFIX,360.cn,🎯 全球直连
   - DOMAIN-SUFFIX,360safe.com,🎯 全球直连
   # - DOMAIN-SUFFIX,microsoft.com,🎯 全球直连,no-resolve
   - DOMAIN-SUFFIX,ifconfig.me,🎯 全球直连
+  - DOMAIN-SUFFIX,download-cdn.jetbrains.com,🎯 全球直连
 
   # 此条针对teams.microsoft.com流量走DIRECT
   # - IP-CIDR,52.0.0.0/8,🎯 全球直连
@@ -38,7 +40,6 @@ payload:
   
   - DOMAIN-SUFFIX,qianqian.club,🎯 全球直连
   # - DOMAIN-SUFFIX,imgki.com,🎯 全球直连
-  # 域名匹配代理 结束
 
   # 图床相关 开始
   - DOMAIN-SUFFIX,imgtu.com,🎯 全球直连
@@ -51,3 +52,5 @@ payload:
   - DOMAIN-SUFFIX,dianping.com,🎯 全球直连
   - DOMAIN-SUFFIX,meituan.com,🎯 全球直连
   # 美团、饿了么 H5端相关 结束
+
+  # 域名匹配代理 结束 #
