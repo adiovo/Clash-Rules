@@ -1,14 +1,14 @@
 # NAME: private-direct
 # AUTHOR: adiovo
 # REPO: https://raw.githubusercontent.com/adiovo/Clash-Rules/main/rules-providers/private/direct.yaml（https://cdn.jsdelivr.net/gh/adiovo/Clash-Rules/rules-providers/private/direct.yaml）
-# UPDATED: 2025-10-30
+# UPDATED: 2025-10-31
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 0
-# DOMAIN-SUFFIX: 18
+# DOMAIN-SUFFIX: 19
 # IP-CIDR: 0
 # IP-CIDR6: 0
 # PROCESS-NAME: 2
-# TOTAL: 20
+# TOTAL: 21
 payload:
   # 进程匹配 开始 #
   - PROCESS-NAME,ToDesk.exe,🎯 全球直连
@@ -39,7 +39,7 @@ payload:
   - DOMAIN-SUFFIX,akamaized.net,🎯 全球直连
   
   - DOMAIN-SUFFIX,qianqian.club,🎯 全球直连
-  # - DOMAIN-SUFFIX,imgki.com,🎯 全球直连
+  - DOMAIN-SUFFIX,*.testip.xyz,🎯 全球直连
 
   # 图床相关 开始
   - DOMAIN-SUFFIX,imgtu.com,🎯 全球直连
