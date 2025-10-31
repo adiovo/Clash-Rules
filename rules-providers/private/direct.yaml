@@ -1,6 +1,7 @@
 # NAME: private-direct
 # AUTHOR: adiovo
-# REPO: https://raw.githubusercontent.com/adiovo/clash-rules/main/rules-providers/private/direct.yaml（https://cdn.jsdelivr.net/gh/adiovo/clash-rules/rules-providers/private/direct.yaml）
+# REPO: https://raw.githubusercontent.com/adiovo/clash-rules/main/rules-providers/private/direct.yaml
+# GH-CDN: https://cdn.jsdelivr.net/gh/adiovo/clash-rules/rules-providers/private/direct.yaml
 # UPDATED: 2025-10-31
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 0
