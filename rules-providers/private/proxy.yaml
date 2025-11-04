@@ -23,9 +23,9 @@ payload:
 
   # AI Server Start
   # Claude.ai
-  - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
-  - DOMAIN-SUFFIX,claude.com,🚀 节点选择
-  - DOMAIN-SUFFIX,claude.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择,no-resolve
+  - DOMAIN-SUFFIX,claude.com,🚀 节点选择,no-resolve
+  - DOMAIN-SUFFIX,claude.ai,🚀 节点选择,no-resolve
   # OpenAI
   - DOMAIN-SUFFIX,openai.com,🚀 节点选择
   - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
